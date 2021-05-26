@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SILab2Test" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-26T11:42:20" hostname="DESKTOP-BLULJ7J" time="0.073">
+  <properties/>
+  <testcase name="FUNCTION()" classname="SILab2Test" time="0.04"/>
+  <testcase name="f0a()" classname="SILab2Test" time="0.004"/>
+  <testcase name="f0b()" classname="SILab2Test" time="0.003"/>
+  <testcase name="f1a()" classname="SILab2Test" time="0.004"/>
+  <testcase name="f1b()" classname="SILab2Test" time="0.004"/>
+  <testcase name="f1c()" classname="SILab2Test" time="0.003"/>
+  <testcase name="f2a()" classname="SILab2Test" time="0.003"/>
+  <system-out><![CDATA[ALL THE HOURS
+==== TEST CASE 0a +++ HR > 25 || HR < 0 (HR = -1)
+==== TEST CASE 0b +++ HR > 25 || HR < 0 (HR = 25)
+==== TEST CASE 1a +++ HR < 24 (12:45:30)
+==== TEST CASE 1a +++ PASSED seconds:45930
+==== TEST CASE 1b+++ HR < 24 (16:60:20)
+==== TEST CASE 1c +++ HR < 24 (08:20:60)
+==== TEST CASE 2a +++ hr == 24 && min == 0 && sec == 0 (24:00:00)
+==== TEST CASE 2a +++ PASSED seconds:86400
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
